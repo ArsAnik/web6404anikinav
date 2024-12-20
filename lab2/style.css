@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC|Marmelad|Comfortaa|Poiret+One|Forum');
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	cursor: pointer;
+}
+p, span{
+	font-family:'Forum', cursive;
+	font-size: 1.3em;
+	margin: 1em;
+	color: #0A629B;
+	word-spacing: 0.3em;
+	cursor: text;
+	text-indent: 1em;
+}
+main h1{
+	font-family: 'Forum', cursive;
+	font-size: 2.2em;
+	color: #004DFF;
+	text-align: center;
+	padding: .4em;
+}
+h2,h3{
+	font-family: 'Forum', cursive;
+	font-size: 1.8em;
+	color: #004DFF;
+	margin-left: 0.7em;
+	padding: .4em;
+	text-indent: 1em;
+}
+h4,h5{
+	font-family: 'Forum', cursive;
+	font-size: 1em;
+	color: #004DFF;
+	margin-left: 0.7em;
+	padding: .4em;
+	text-indent: 1em;
+}
+main li{
+	padding: 8px;
+	margin-left: 40px;
+	font-family: 'Forum', cursive;
+	font-size: 1.3em;
+	color: #0A629B;
+}
+main img{
+	float: none;
+	border: 8px outset #66A3D2;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.6);
+	margin: 20px;
+	background-color: #679FD2; 
+	border-radius: 10px;
+	width: 90%;
+	height: 70%;
+}
+#mainwrapper {
+	margin: 0 auto;
+	min-height: 100%;
+   	position: relative;
+	background-color: #FFF3E6;
+}
+#header{
+	text-align: center;
+	font-size: 32px;
+	padding: 30px;
+	background-color: #A4D5FF;
+	color: #190773;
+}
+#mainmenu {
+	width: 20%;
+	margin-left: 17.5%;
+	float: left;
+}
+main {
+	width: 45%;
+	min-height: 650px;
+	background-color: #F2FFFF;
+	margin-left: 37.5%;
+	font-family: 'Tinos', serif;
+	display: block;
+}
+#footer{
+	width: 65%;
+	height: 200px;
+	margin-left: 17.5%;
+	background: #3016B0;
+	display: block;
+}
+
+#footer span{
+	display: block;
+	padding: 20px;
+	color: #fff;
+}
+
+#footer a{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.menu{
+	list-style-type:none;
+}
+.menu li{
+	display:block;
+	background-color: #A4D5FF;
+	transition:background-color,3s,easy-in-out,1s;
+	position:relative;
+}
+.menu li >a{
+	display:block;
+	text-decoration:none;
+	color:  #190773;
+	font-family: 'Forum', cursive;
+	transition: color,.8s,easy-in,.5s;
+	padding: 20px 50px;
+	font-size: 170%;
+}
+.menu ul {
+	display: none;
+	position:absolute;
+	top:0;
+	left:100%;
+}
+.menu li:hover>ul{
+	transition:visibility,.5s,easy-out;
+	visibility:visible;
+	display: block;
+}
+.menu a:hover{
+	color: white;
+	background-color: #219CEC;
+}
+i{
+	margin-left: 5px;
+	color: #4965D6;
+	font-family: 'Neucha', cursive;
+}
+#footer li, a{
+	text-decoration: none;
+}
+a {
+text-decoration: none;
+}
+.gallery{
+	display: block;
+	width: 80%;
+	margin: 20px;
+	border-radius: 10px;
+}
+.gallery img{
+	border: none;
+	box-shadow: none;
+	background-color: #679FD2; 
+	border-radius: 10px;
+	width: 80%;
+}
+.gallery div{
+	display: none;
+	position: absolute;
+	background-color: #004DFF;
+	opacity: 0.8;
+	width: 20%;
+	margin-left: 5%;
+	border-radius: 10px;
+	margin-top: -90px;
+}
+.gallery img:hover+div{
+	display: block;
+}
+.gallery div:hover{
+	display: block;
+}
+.gallery p{
+	color: white;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+[target]{
+	cursor: zoom-in;
+}
+#cap{
+	height: 30%;
+	width: 30%;
+}
+#athive i{
+	cursor: pointer;
+}
+#biogr img{
+	height: 40%;
+	width: 50%;
+}
+.owner img{
+	height: 30%;
+	width: 40%;
+}
+.owner #owner1{
+	height: 100%;
+	width: 85%;
+}
+.owner #owner2{
+	height: 100%;
+	width: 85%;
+}
+
+table, tr, td{
+	width: calc(100% - 100px);
+	border: 1px solid;
+	margin-left: 50px;
+}
+
+table th{
+	text-align: right;
+}
+
+table td:nth-child(1){
+	text-align: left;
+}
+
+table td:nth-child(2){
+	text-align: center;
+}
+
+table td:nth-child(3) img{
+	border: 0;
+	width: 100%;
+	margin: 0;
+}
